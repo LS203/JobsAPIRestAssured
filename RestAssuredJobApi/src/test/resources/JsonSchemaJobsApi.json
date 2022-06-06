@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "Job Title": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0"
+          ]
+        },
+        "Job Company Name": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0"
+          ]
+        },
+        "Job Location": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0"
+           ]
+        },
+        "Job Type": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0"
+          ]
+        },
+        "Job Posted time": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0"
+          ]
+        },
+        "Job Description": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0"
+          ]
+        },
+        "Job Id": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "0"
+          ]
+        }
+      },
+      "required": [
+        "Job Title",
+        "Job Company Name",
+        "Job Location",
+        "Job Type",
+        "Job Posted time",
+        "Job Description",
+        "Job Id"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
